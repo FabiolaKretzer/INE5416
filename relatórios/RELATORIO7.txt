@@ -1,0 +1,10 @@
+Nome: Fabíola Maria Kretzer
+Matrícula: 16100725 
+ 
+Relatório 6 - Módulos
+
+O arquivo "Formas.hs" possui um módulo que define formas geométricas. É um 
+exemplo que está presente na apostila no moodle.
+Já no arquivo hiperbolica é definido um módulo que possui algumas funções 
+hiperbólicas.
+

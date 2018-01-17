@@ -1,0 +1,22 @@
+Nome: Fabíola Maria Kretzer
+Matrícula: 16100725
+
+Roteiro 4 - Cálculo-Lambda
+
+A principal diferença entre funções matemáticas e expressões lambdas, é que o domínio
+de funções é definido por conjunto, ou um produto cartesiano de conjuntos, já o 
+domínio de expressões lambda é mais amplo, pois pode admitir inclusive outras expressões
+lambda. Expressões lambda também só possuem uma variável, apesar de podermos escrever 
+funções de várias variáveis na forma de expressões lambda.
+A aplicação de um argumento à uma abstração lambda implica na substituição das ocorrências
+das variáveis correspondentes ao argumento. Ou seja, as varíaveis em função são convertidas
+em argumentos no cálculo lambda.
+Segue abaixo trẽs tipos de comversão:
+Alpha-conversão: responsável por renomear variáveis se assim for necessário para o escopo da expressão.
+Por exemplo: λx.λy.x, nós obteríamos λy.λy.y
+Beta-conversão: a mais comum das operações de redução por uma grande margem, habilita o processo de
+calcular um resultado da aplicação de uma função a uma expressão. 
+Por exemplo: ((λV.E) E′)  é E[V := E′]
+Eta-conversão: elimina redundâncias	nas abstrações, no caso de uma função ser utilizada apenas para passar
+seu argumento a outras expressões.
+Por exemplo: λx.(f x) e f sempre que x não aparece livre em f

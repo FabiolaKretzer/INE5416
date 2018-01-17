@@ -1,0 +1,28 @@
+Nome:Fabíola Maria Kretzer
+Matrícula: 16100725
+
+Relátorio 10 - Mônadas e I/O
+
+Homologia Algébrica
+
+A álgebra homológica é um ramo relativamente recente da matemática, que estuda
+homologia de funções, dentro da teoria das categorias (topologia). Uma categoria 
+pode ser descrita como uma estrutura matemática abstrata que guarda relações entre
+si. Por exemplo, dadas as funçõoes:
+	f: x → y
+	g: y → z
+existe uma função h: x → z que pode ser um functor F(f◦g) = F(f)◦F(g). Se existir 
+uma relação, tal que:
+	H(f(x), y) ≡ H(x, g(y))
+
+Mônadas
+
+Na prática, o uso de mônadas, em uma linguagem funcional, serve para estruturar 
+operações que devem ser executadas em uma determinada ordem.
+
+Functor
+
+Functor é um tipo de mapeamento entre duas categorias que preserva a estrutura.
+
+--Referências                                                        
+- Apostila fornecida pelo professor.

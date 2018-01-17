@@ -1,0 +1,35 @@
+Nome: Fabíola Maria Kretzer
+Matrícula: 16100725
+
+Relatório 5 - Análise léxica: sintaxe
+
+Paul Raymond Hudak foi professor americano de ciência da computação na Universidade de Yale, 
+conhecido por seu envolvimento no design da linguagem de programação Haskell, bem como vários
+livros didáticos sobre Haskell e música informática.
+
+Parte 1
+
+f x = case x of
+    0 -> 1
+    1 -> 5
+    2 -> 2
+    _ -> 1
+    
+quicksort :: (Ord a) => [a] -> [a]
+quicksort [] = []
+quicksort (x:xs) = quicksort lt ++ [x] ++ quicksort ge
+where {lt = [y | y <- xs, y < x]; ge = [y | y <- xs, y >= x]}
+
+Parte 2
+
+Exercício 1:
+    [1..1000]
+
+Exercício 2:
+    [1,4..99]
+
+Exercício 3:
+    a1 = [a1*(2**(x-1)) | x <- [1..50]] //a1 é o primeiro termo da pg
+    
+Exercício 4:
+    fatorial n = product [1..n]	 	  	 	     	    	     	 	     	    	      	 	

@@ -1,0 +1,15 @@
+Nome:Fabíola Maria Kretzer
+Matrícula: 16100725
+
+Relátorio 8 - Listas e Array
+
+A principal diferença dessas estruturas são que os arrays em C são estruturas 
+estáticas, ou seja, possuem um tamanho fixo (definido em tempo de compilação) 
+e estão alocadas contiguamente na memória. Para obter um espaço de memória 
+arbitrário (em tempo de execução), precisamos alocar dinamicamente a memória 
+usando as funções da família malloc. Já em Python, a estrutura básica para 
+armazenar dados de forma linear, é a lista, que é uma estrutura de dados, ou 
+seja, possui operações definidas (inserção em qualquer posição, remoção em 
+qualquer posição...), que abstraem a manipulação dos dados.
+
+

@@ -1,0 +1,41 @@
+Nome:Fabíola Maria Kretzer
+Matrícula: 16100725
+
+Relátorio 9 - Listas em Haskell
+
+Em ciência da computação, programação funcional é um paradigma de programação 
+que trata a computação como uma avaliação de funções matemáticas e que evita 
+estados ou dados mutáveis. Ela enfatiza a aplicação de funções, em contraste 
+da programação imperativa, que enfatiza mudanças no estado do programa. As 
+funções são tratadas como valores de primeira importância, o que é o mesmo 
+que dizer que funções podem ser parâmetros ou valores de entrada para outras 
+funções e podem ser os valores de retorno ou saída de uma função. São laziness
+é uma estratégia para avaliar expressões de tal forma que esta é atrasada até 
+que o valor da expressão seja realmente necessário.
+
+Para mapeamento de funções em Listas uma das funções mais usadas é a "map", que
+recebe uma função e uma lista como parâmetros e retorna outra lista, o que ela 
+faz é para cada elemento da lista, executar a função dada e colocar o resultado 
+na lista de retorno, ou seja, ela mapeia os valores da lista para uma nova lista
+de acordo com a função passada.
+
+
+Data.List é composto de diversos utilitários para manipulação de listas, como um 
+operador para concatenação destas, testes para lista vazia, retorno de tamanho de 
+lista, funções para reversão, mapeamento, retorno de subsequências e permutações, 
+entre outros.
+
+Funções de PA
+r 
+a 1
+a n = a 1 + (n-1) * r
+
+-- Usando listas
+soma_l n = sum [a x | x <- [1..n]]
+prod_l n = product [a x | x <- [1..n]]
+
+-- Usando a forma geral
+soma_g n = n * (a 1 + a n) / 2
+prod_g n = r ** n * (gamma (a 1 / r + n) / gamma (a 1 / r)) where
+	gamma :: Double -> Double
+gamma n = sqrt(2*pi/n) * ((((1/exp 1) * (n + (1/(12*n - 1/(10*n)))))) ** n)

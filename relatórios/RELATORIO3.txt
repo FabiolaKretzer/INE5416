@@ -1,0 +1,21 @@
+Nome:Fabíola Maria Kretzer
+Matrícula: 16100725
+
+Relátorio 3 - Linguagens Multiparadigmas(python)
+
+Uma linguagem multiparadigmas suporta diferentes paradigmas de programação.Nenhum 
+paradigma resolve todos os problemas de maneira elegante e efiente, assim o objetivo de 
+projetar linguagens multiparadigmas é que o programador pode escolher o melhor paradigma
+dentro de uma mesma linguagem para solucionar determinado problema da melhor maneira
+possível.
+Python é uma linguagem de programação de alto nível exemplo de linguagens multiparadigmas,
+é interpretada, de script, imperativa, orientada a objetos, funcional e fortemente tipada.
+Tudo isso possibilita uma alta flexibilidade da linguagem.
+Por exemplo, se quiser escrever algo na tela, basta declarar a função print() e escrever 
+dentro dos parênteses entre aspas duplas a mensagem desejada.
+Um exemplo de código de paradigma funcional em python é:
+        transformar = lambda x, y: x**y
+é uma função que tem o objetivo de pegar um número x e elevar a potência y.
+        transformar(3, 4) #isto retorna 81
+Para código de paradigma procedimental, pode ser utilizado laços de repetição e if then else.
+Python também aceita misturar linguagem funcional com procedimental.

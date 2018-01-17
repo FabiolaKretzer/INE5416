@@ -1,0 +1,58 @@
+Nome: Fabíola Maria Kretzer
+Matrícula: 16100725 
+
+Relatório 6 - Classes e Tipos
+
+Parte 1
+
+Em linguagens de programação, polimorfismo (do grego, "polys"-> muitas e "morphē" -> forma)
+é prover uma única interface para entidades de diferentes tipos. Um tipo polimórfico, é um 
+tipo que possui operações que podem ser usadas em valores de algum outro tipo, ou tipos.
+
+Polimorfismo Ad Hoc = É quando uma função possui implementações diferentes e potencialmente
+heterogêneas dependendode um conjunto limitado de tipos ou combinações deles. Muitas 
+linguagens suportam este tipo de polimorfismo com sobrescrita de operadores.
+
+Polimorfismo Paramétrico = É quando o código foi escrito sem menção a nenhum tipo específico,
+porém pode ser utilizado de forma transparente com qualquer novo tipo. Em linguagens orientadas
+a objetos,isso é conhecido como programação genérica, em linguagens funcionais é abreviado para
+polimorfismo.
+
+Em C++ a utilização de templates possibilita a programação de classes genéricas. Além disso possui 
+um extenso suporte a sobrescrita de operadores, possibilitando sobrescrever quase todos os operadores
+da linguagem. Também possui métodos virtuais que podem ser subrecritos pelas subclasses.
+
+Em Java podemos escrever interfaces, que obrigam as classes a implementar todas os métodos descritos 
+pela interface, e também podemos sobrescrever métodos de uma superclasse, possibilitando formas
+de polimorfismo ad hoc. E pode ser usado polimorfismo paramétrico utilizando classes genéricas em java.
+
+Python também possui uma ideia de programação genérica, mas que funciona diferente de C++. Python 
+possibilita a sobrescrita de métodos de uma superclasse e de alguns operadores.
+
+Haskell não suporta sobrecarga de funções completamente, apenas através de tipos de classes, construtores
+que habilitam subclasses a utilizar, implementar e sobrecarregar métodos disponíveis. Porém o polimorfismo
+paramétrico é natural em Haskell usando variáveis, que podem ser substituídos por qualquer tipo concreto.
+
+Haskell possui um paradigma muito diferente do paradigma orientado a objetos, normalmente você aborda o problema 
+de uma forma substancialmente diferente do que em linguagens orientadas a objetos, logo, conceitos específicos de 
+orientação a objetos, como encapsulamento, não existem em Haskell.
+
+A linguagem C++ foi concebida para ser uma linguagem orientada a objeto, mas mesmo que seja possível escrever 
+programas de estruturas monolíticas ou usando abordagem da Programação Estruturada, são justamente as técnicas 
+de programação e uma abordagem de programação de OOP que revelam toda a versatilidade e capacidade que programas
+com código fonte em C++ possuem.
+
+Parte 2
+
+Listas e tuplas são estruturas fundamentais para manipulação de grupos de valores.
+A restrição mais importante é que todos os elementos da lista devem ser do mesmo tipo. Existe um operador de adição
+de elementos à lista que pode ser utilizado da seguinte maneira: elemento>:[], onde a lista é delimitada por colchetes.
+Tuplas aceitam elementos de tipos diferentes, mas são imutáveis no seu tamanho, ou seja, o operador ":" não deve 
+funcionar. N-uplas são tuplas de tamanho N, ou seja, que contêm N elementos.
+
+Funções em Haskell são tipos abstratos, pois funções, de alta ordem, podem aceitar outras funções de um determinado 
+tipo como parâmetro, isso é essencial para que existam funções de alta ordem, que são o grande trunfo das linguagens
+funcionais.
+
+
+	 	  	 	     	    	     	 	     	    	      	 	
